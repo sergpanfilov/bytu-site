@@ -1,6 +1,20 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8"><title>BYTU</title>
-        <script>const lang = navigator.language || navigator.userLanguage;
-        if (lang.startsWith("pl")){{window.location.href = "./pl/";}}
-        else if (lang.startsWith("be") || lang.startsWith("by")){{window.location.href = "./by/";}}
-        else{{window.location.href = "./en/";}}</script></head><body>
-        <p>Redirecting based on browser language...</p></body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>BYTU</title>
+    <script>
+      const lang = navigator.language || navigator.userLanguage;
+      if (lang.startsWith("pl")) {
+        window.location.href = "./pl/";
+      } else if (lang.startsWith("be") || lang.startsWith("by")) {
+        window.location.href = "./by/";
+      } else {
+        window.location.href = "./en/";
+      }
+    </script>
+  </head>
+  <body>
+    <p>Redirecting based on browser language...</p>
+  </body>
+</html>
