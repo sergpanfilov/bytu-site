@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 :root {
   --color-bg: #F4F4F4;
@@ -76,3 +77,6 @@ footer {
   margin-top: 2em;
   border-top: 1px solid var(--color-grey);
 }
+=======
+body{font-family:sans-serif;background:#F4F4F4;color:#1A1A1A;margin:0}main{padding:2em}img.responsive{width:100%;height:auto;aspect-ratio:16/9}@media(max-width:768px){img.responsive{aspect-ratio:1/1}}
+>>>>>>> bde8b838a73154da27c0ebe7b0de457bd4cfd97c

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
 <head>
   <meta charset="UTF-8">
   <title>BYTU</title>
@@ -17,4 +18,23 @@
 <body>
   <p>Redirecting based on browser language...</p>
 </body>
+=======
+  <head>
+    <meta charset="UTF-8">
+    <title>BYTU</title>
+    <script>
+      const lang = navigator.language || navigator.userLanguage;
+      if (lang.startsWith("pl")) {
+        window.location.href = "./pl/";
+      } else if (lang.startsWith("be") || lang.startsWith("by")) {
+        window.location.href = "./by/";
+      } else {
+        window.location.href = "./en/";
+      }
+    </script>
+  </head>
+  <body>
+    <p>Redirecting based on browser language...</p>
+  </body>
+>>>>>>> bde8b838a73154da27c0ebe7b0de457bd4cfd97c
 </html>
