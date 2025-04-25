@@ -1,0 +1,78 @@
+
+:root {
+  --color-bg: #F4F4F4;
+  --color-light: #E6D8D8;
+  --color-grey: #AFAFAF;
+  --color-dark: #1A1A1A;
+  --color-accent: #D0021B;
+  --font-heading: 'Bebas Neue', sans-serif;
+  --font-text: 'Inter', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-text);
+  background-color: var(--color-bg);
+  color: var(--color-dark);
+  line-height: 1.6;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--color-light);
+  padding: 1em;
+  z-index: 1000;
+  border-bottom: 1px solid var(--color-grey);
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0.5em;
+  color: var(--color-dark);
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--color-accent);
+}
+
+main {
+  max-width: 1200px;
+  margin: 6em auto 3em auto;
+  padding: 1em;
+}
+
+img.responsive {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
+@media (max-width: 768px) {
+  img.responsive {
+    aspect-ratio: 1 / 1;
+  }
+}
+
+footer {
+  background-color: var(--color-light);
+  text-align: center;
+  padding: 1.5em;
+  font-size: 0.9em;
+  margin-top: 2em;
+  border-top: 1px solid var(--color-grey);
+}
