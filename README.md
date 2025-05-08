@@ -1,2 +1,0 @@
-# bytu-site
-BYTU.PL
